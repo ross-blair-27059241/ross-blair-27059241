@@ -1,22 +1,24 @@
-# Whoami
+# 2025-04-21 Notice of New Personal Key Certificate
 
-I'm a Security Engineer with over 8 years working experience in intrusion detection and security-incident response operations. I currently work on architecting, building, and improving the systems and threat-detections that SOC and IR Teams use to defend companies.
+In early April of 2025, there was a catastrophic loss of the air-gapped system and all its backups which I was using to manage the generation and editing of my personal OpenPGP-compliant ("PGP") key-certificate.  Note that this was not a security compromise, but rather accidental destruction of systems and data.  Unfortunately, this has made it impossible for me to update or revoke the key-certificate that I have been using up until this point.
 
-The knowledge and skills that I have, as well as those that I am currently developing, are all focused on helping companies with highly decentralized IT infrastructures, with large application deployments through "Infrastructure-as-a-Service" providers (e.g. AWS EC2, S3, EKS, etc.) and multiple "Software-as-a-Service" dependencies (e.g. GitHub for CI/CD, Slack for company communications, etc.).
+I've therefore gone ahead and created a completely new PGP key-certificate (along with its constituent subkeys) for myself.  At the time of writing, this newly-issued key-certificate's info is the following:
 
+```
+pub   rsa4096/0xB610F59B30E506F0 2025-04-18 [C] [expires: 2027-04-18]
+      Key fingerprint = DC30 10BF 60E9 9F4F 1900  D558 B610 F59B 30E5 06F0
+uid   Ross Blair | Personal ID (Ross Blair's authoritative OpenPGP standard [PGP] key-certificate.  Intended for uses relating to Ross Blair's direct personal and professional work.  Note that Ross's work done on behalf of other companies, organizations, or third party legal entities may not be signed with this key-certificate.) <no_reply.rb.pgp_key_certs@mailbox.org>
+sub   rsa4096/0x43AD2A88B488F8FF 2025-04-18 [S] [expires: 2027-04-18]
+      Key fingerprint = D23C 8278 C88F 748E 0C80  C444 43AD 2A88 B488 F8FF
+sub   rsa4096/0xFD042E11DF1AD7EF 2025-04-18 [E] [expires: 2027-04-18]
+      Key fingerprint = B268 672C A8BB 3F86 06CE  CC3F FD04 2E11 DF1A D7EF
+sub   rsa4096/0x2D9AAD4BCB3AE4D5 2025-04-18 [A] [expires: 2027-04-18]
+      Key fingerprint = E577 1AF8 535D 291F 6F4D  F424 2D9A AD4B CB3A E4D5
+```
 
-## Cryptographic Verification of My Work
+You can reference the old archived key-certificate's public key data in the file "Archived_IKC--2C19753DB7975FDF_public_key_cert_data.asc", and you reference the newly issued key-certificate's public key data in the file "Newly_Issued_IKC--B610F59B30E506F0_public_key_cert_data.asc".  Both files are available in the same directory as this notice.
 
-I sign all my commits as well as certain important documents \(including this README\) with my personal OpenPGP standard \(PGP\) key-certificate.  This PGP key-certificate's certifying-primary-key-pair's public-key bares the PGP fingerprint `DC30 10BF 60E9 9F4F 1900  D558 B610 F59B 30E5 06F0`.  It's available via Github API [here](https://api.github.com/users/ross-blair-27059241/gpg_keys) or direct download [here](https://github.com/ross-blair-27059241/ross-blair-27059241).
-
-You can doubly verify the authenticity of this key by verifying that the fingerprint of the downloaded GPG public key \(mentioned above\) is the same as the GPG public key fingerprint specified in my X \(formerly Twitter\) account profile: `@rb_27059241`.
-
-I intend to have an unbroken pattern of verified commits on my code and content contributions.
-
-
-## Contacting Me
-
-For now, the best way to reach out to me is via direct message \(DM\) [on my X \(formerly Twitter\) account](https://twitter.com/rb_27059241).  I should mention that my responses may be very delayed as I am not a daily user of this platform.
+As of today, my GitHub profile and API endpoint will be updated with the newly issued key-certificate and its various key-pairs, and the new key certificate will be posted on my X \(formerly Twitter\) account: `@rb_27059241`.
 
 
 ---
