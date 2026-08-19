@@ -1,13 +1,16 @@
 # Whoami
 
-I'm a Security Engineer with over 8 years working experience in intrusion detection and security-incident response operations. I currently work on architecting, building, and improving the systems and threat-detections that SOC and IR Teams use to defend companies.
+I'm a Security Detection Engineer with over 8 years working experience in security-detection and incident-response operations.  I currently work on architecting, building, and improving the systems and security-detections that SOC and IR Teams use to defend companies.
 
-The knowledge and skills that I have, as well as those that I am currently developing, are all focused on helping companies with highly decentralized IT infrastructures, with large application deployments through "Infrastructure-as-a-Service" providers (e.g. AWS EC2, S3, EKS, etc.) and multiple "Software-as-a-Service" dependencies (e.g. GitHub for CI/CD, Slack for company communications, etc.).
+The core mission of my work is this: to implement scalable and sustainable detection-and-response solutions which effectively support an organization's strategic objectives.
 
+I closely partner with SOC and IR teams, seeing them as my "first customers".  My work empowers proactive detection-and-response operations with threat modeling, detailed and intuitive logging, detection engineering, and automated response playbooks.
+
+My current knowledge and skills are best applied to organizations which rely on remote IaaS providers (e.g. AWS), build with infrastructure-as-code (e.g. Terraform) and container (e.g. Docker, Kubernetes) technologies, and have multiple SaaS dependencies (e.g. GitHub for CI/CD, Slack for company communications, etc.).
 
 ## Cryptographic Verification of My Work
 
-I sign all my commits as well as certain important documents \(including this README\) with my personal OpenPGP standard \(PGP\) key-certificate.  This PGP key-certificate's certifying-primary-key-pair's public-key bares the PGP fingerprint `DC30 10BF 60E9 9F4F 1900  D558 B610 F59B 30E5 06F0`.  It's available via Github API [here](https://api.github.com/users/ross-blair-27059241/gpg_keys) or direct download [here](https://github.com/ross-blair-27059241/ross-blair-27059241).
+I sign all my commits as well as certain important documents \(including this README\) with my "personal ID" OpenPGP standard \(PGP\) key-certificate.  This PGP key-certificate's certifying-primary-key-pair's public-key bares the PGP fingerprint `DC30 10BF 60E9 9F4F 1900  D558 B610 F59B 30E5 06F0`.  It's available via Github API [here](https://api.github.com/users/ross-blair-27059241/gpg_keys) or direct download [here](https://github.com/ross-blair-27059241/ross-blair-27059241).
 
 You can doubly verify the authenticity of this key by verifying that the fingerprint of the downloaded GPG public key \(mentioned above\) is the same as the GPG public key fingerprint specified in my X \(formerly Twitter\) account profile: `@rb_27059241`.
 
@@ -22,7 +25,7 @@ For now, the best way to reach out to me is via direct message \(DM\) [on my X \
 ---
 > -- Ross Blair
 > 
-> © 2025 [Ross Blair](https://github.com/ross-blair-27059241).
+> © 2026 [Ross Blair](https://github.com/ross-blair-27059241).
 > 
 > To verify the authenticity of this document with this written signature here, please first refer to the following three peices of information:
 >
